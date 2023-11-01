@@ -22,6 +22,6 @@ return [
     ],
 
     'sso' => [
-        'enabled' => false,
+        'enabled' => true,
     ],
 ];
