@@ -217,7 +217,7 @@
             "dist": {
                 "type": "path",
                 "url": "/home/chris/dev/packages/composer/bastion",
-                "reference": "a10676035f45eab657319dbcecddee54e97c7ca2"
+                "reference": "5769a3c8484661832d920b3ce353ac0820bc1498"
             },
             "require": {
                 "chrisreedio/filament-policy-generator": "dev-dev",
@@ -310,12 +310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisreedio/filament-policy-generator.git",
-                "reference": "412ea1db87c06a36307c8f2641ccd75e2759333c"
+                "reference": "d56d0bb400caed01a8a64c0139c0dfbe8ca12943"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/412ea1db87c06a36307c8f2641ccd75e2759333c",
-                "reference": "412ea1db87c06a36307c8f2641ccd75e2759333c",
+                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/d56d0bb400caed01a8a64c0139c0dfbe8ca12943",
+                "reference": "d56d0bb400caed01a8a64c0139c0dfbe8ca12943",
                 "shasum": ""
             },
             "require": {
@@ -381,7 +381,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-01T20:03:16+00:00"
+            "time": "2023-11-01T22:21:46+00:00"
         },
         {
             "name": "danharrin/date-format-converter",
