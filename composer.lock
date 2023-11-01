@@ -310,12 +310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisreedio/filament-policy-generator.git",
-                "reference": "d56d0bb400caed01a8a64c0139c0dfbe8ca12943"
+                "reference": "7a29660947d797093767b9ef78e55edd112dcd9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/d56d0bb400caed01a8a64c0139c0dfbe8ca12943",
-                "reference": "d56d0bb400caed01a8a64c0139c0dfbe8ca12943",
+                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/7a29660947d797093767b9ef78e55edd112dcd9f",
+                "reference": "7a29660947d797093767b9ef78e55edd112dcd9f",
                 "shasum": ""
             },
             "require": {
@@ -381,7 +381,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-01T22:21:46+00:00"
+            "time": "2023-11-01T22:28:06+00:00"
         },
         {
             "name": "danharrin/date-format-converter",
