@@ -217,7 +217,7 @@
             "dist": {
                 "type": "path",
                 "url": "./packages/chrisreedio/bastion",
-                "reference": "4cdc5a39dcc2831ff91efe58743fa7437b94d769"
+                "reference": "b5c735c3b119c0986bb3f3ad0416dc06cc33a7c1"
             },
             "require": {
                 "filament/filament": "^3.0",
