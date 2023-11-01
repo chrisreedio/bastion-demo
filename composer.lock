@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "8b754c9e4e1d3cbc7186cc1a8a089c8d",
+    "content-hash": "d707c3a36ff2e526016ca7d3be85e2c4",
     "packages": [
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -213,17 +213,11 @@
         },
         {
             "name": "chrisreedio/bastion",
-            "version": "dev-dev",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/chrisreedio/bastion.git",
-                "reference": "9d443982d6f6734782442a0cb42e359c1e60faf2"
-            },
+            "version": "3.x-dev",
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/bastion/zipball/9d443982d6f6734782442a0cb42e359c1e60faf2",
-                "reference": "9d443982d6f6734782442a0cb42e359c1e60faf2",
-                "shasum": ""
+                "type": "path",
+                "url": "/home/chris/dev/packages/composer/bastion",
+                "reference": "a10676035f45eab657319dbcecddee54e97c7ca2"
             },
             "require": {
                 "chrisreedio/filament-policy-generator": "dev-dev",
@@ -263,7 +257,28 @@
                     "ChrisReedIO\\Bastion\\Database\\Factories\\": "database/factories/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
+            "autoload-dev": {
+                "psr-4": {
+                    "ChrisReedIO\\Bastion\\Tests\\": "tests/"
+                }
+            },
+            "scripts": {
+                "post-autoload-dump": [
+                    "@php ./vendor/bin/testbench package:discover --ansi"
+                ],
+                "analyse": [
+                    "vendor/bin/phpstan analyse"
+                ],
+                "test": [
+                    "vendor/bin/pest"
+                ],
+                "test-coverage": [
+                    "vendor/bin/pest --coverage"
+                ],
+                "format": [
+                    "vendor/bin/pint"
+                ]
+            },
             "license": [
                 "MIT"
             ],
@@ -285,13 +300,9 @@
                 "issues": "https://github.com/chrisreedio/bastion/issues",
                 "source": "https://github.com/chrisreedio/bastion"
             },
-            "funding": [
-                {
-                    "url": "https://github.com/chrisreedio",
-                    "type": "github"
-                }
-            ],
-            "time": "2023-11-01T10:52:20+00:00"
+            "transport-options": {
+                "relative": false
+            }
         },
         {
             "name": "chrisreedio/filament-policy-generator",
@@ -299,12 +310,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisreedio/filament-policy-generator.git",
-                "reference": "5f65caf998cc86c9a4b8945e897749b7187d271b"
+                "reference": "412ea1db87c06a36307c8f2641ccd75e2759333c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/5f65caf998cc86c9a4b8945e897749b7187d271b",
-                "reference": "5f65caf998cc86c9a4b8945e897749b7187d271b",
+                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/412ea1db87c06a36307c8f2641ccd75e2759333c",
+                "reference": "412ea1db87c06a36307c8f2641ccd75e2759333c",
                 "shasum": ""
             },
             "require": {
@@ -370,7 +381,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-01T11:01:39+00:00"
+            "time": "2023-11-01T20:03:16+00:00"
         },
         {
             "name": "danharrin/date-format-converter",
@@ -2222,16 +2233,16 @@
         },
         {
             "name": "laravel/framework",
-            "version": "v10.30.0",
+            "version": "v10.30.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laravel/framework.git",
-                "reference": "3dd85d9dbea82b937f8eaf344b50d613c5d1127a"
+                "reference": "7a2da50258c4d0f693b738d3f3c69b2693aea6c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/laravel/framework/zipball/3dd85d9dbea82b937f8eaf344b50d613c5d1127a",
-                "reference": "3dd85d9dbea82b937f8eaf344b50d613c5d1127a",
+                "url": "https://api.github.com/repos/laravel/framework/zipball/7a2da50258c4d0f693b738d3f3c69b2693aea6c1",
+                "reference": "7a2da50258c4d0f693b738d3f3c69b2693aea6c1",
                 "shasum": ""
             },
             "require": {
@@ -2420,7 +2431,7 @@
                 "issues": "https://github.com/laravel/framework/issues",
                 "source": "https://github.com/laravel/framework"
             },
-            "time": "2023-10-31T13:19:45+00:00"
+            "time": "2023-11-01T13:52:17+00:00"
         },
         {
             "name": "laravel/prompts",
@@ -10154,9 +10165,7 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "chrisreedio/bastion": 20
-    },
+    "stability-flags": [],
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
