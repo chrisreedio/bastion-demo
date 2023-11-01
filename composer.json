@@ -69,15 +69,5 @@
         }
     },
     "minimum-stability": "dev",
-    "prefer-stable": true,
-    "repositories": [
-        {
-            "type": "path",
-            "url": "./packages/chrisreedio/bastion"
-        },
-        {
-            "type": "path",
-            "url": "./packages/chrisreedio/filament-policy-generator"
-        }
-    ]
+    "prefer-stable": true
 }

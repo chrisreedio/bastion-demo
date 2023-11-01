@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "adf2ada0a56c4c4d008664dcb531168c",
+    "content-hash": "b5586509bd607aba39c4fd8dc94ed66c",
     "packages": [
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -214,10 +214,16 @@
         {
             "name": "chrisreedio/bastion",
             "version": "dev-dev",
-            "dist": {
-                "type": "path",
-                "url": "./packages/chrisreedio/bastion",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisreedio/bastion.git",
                 "reference": "aaf2396e3b06f0023ea9e200d4ccd13338fcd884"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisreedio/bastion/zipball/aaf2396e3b06f0023ea9e200d4ccd13338fcd884",
+                "reference": "aaf2396e3b06f0023ea9e200d4ccd13338fcd884",
+                "shasum": ""
             },
             "require": {
                 "filament/filament": "^3.0",
@@ -256,28 +262,7 @@
                     "ChrisReedIO\\Bastion\\Database\\Factories\\": "database/factories/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "ChrisReedIO\\Bastion\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "post-autoload-dump": [
-                    "@php ./vendor/bin/testbench package:discover --ansi"
-                ],
-                "analyse": [
-                    "vendor/bin/phpstan analyse"
-                ],
-                "test": [
-                    "vendor/bin/pest"
-                ],
-                "test-coverage": [
-                    "vendor/bin/pest --coverage"
-                ],
-                "format": [
-                    "vendor/bin/pint"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -299,17 +284,27 @@
                 "issues": "https://github.com/chrisreedio/bastion/issues",
                 "source": "https://github.com/chrisreedio/bastion"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "funding": [
+                {
+                    "url": "https://github.com/chrisreedio",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-11-01T06:14:41+00:00"
         },
         {
             "name": "chrisreedio/filament-policy-generator",
             "version": "dev-dev",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/chrisreedio/filament-policy-generator.git",
+                "reference": "df3a8f1d553598c9877206a9c1f8c286f5fcfe20"
+            },
             "dist": {
-                "type": "path",
-                "url": "./packages/chrisreedio/filament-policy-generator",
-                "reference": "7403e98807761250c7d23c15f7aa645ef60e4c2a"
+                "type": "zip",
+                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/df3a8f1d553598c9877206a9c1f8c286f5fcfe20",
+                "reference": "df3a8f1d553598c9877206a9c1f8c286f5fcfe20",
+                "shasum": ""
             },
             "require": {
                 "filament/filament": "^3.0",
@@ -346,28 +341,7 @@
                     "ChrisReedIO\\PolicyGenerator\\": "src/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "ChrisReedIO\\PolicyGenerator\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "post-autoload-dump": [
-                    "@php ./vendor/bin/testbench package:discover --ansi"
-                ],
-                "analyse": [
-                    "vendor/bin/phpstan analyse"
-                ],
-                "test": [
-                    "vendor/bin/pest"
-                ],
-                "test-coverage": [
-                    "vendor/bin/pest --coverage"
-                ],
-                "format": [
-                    "vendor/bin/pint"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -389,9 +363,13 @@
                 "issues": "https://github.com/chrisreedio/filament-policy-generator/issues",
                 "source": "https://github.com/chrisreedio/filament-policy-generator"
             },
-            "transport-options": {
-                "relative": true
-            }
+            "funding": [
+                {
+                    "url": "https://github.com/chrisreedio",
+                    "type": "github"
+                }
+            ],
+            "time": "2023-11-01T08:36:44+00:00"
         },
         {
             "name": "danharrin/date-format-converter",
