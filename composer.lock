@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b5586509bd607aba39c4fd8dc94ed66c",
+    "content-hash": "8b754c9e4e1d3cbc7186cc1a8a089c8d",
     "packages": [
         {
             "name": "blade-ui-kit/blade-heroicons",
@@ -217,15 +217,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisreedio/bastion.git",
-                "reference": "aaf2396e3b06f0023ea9e200d4ccd13338fcd884"
+                "reference": "9d443982d6f6734782442a0cb42e359c1e60faf2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/bastion/zipball/aaf2396e3b06f0023ea9e200d4ccd13338fcd884",
-                "reference": "aaf2396e3b06f0023ea9e200d4ccd13338fcd884",
+                "url": "https://api.github.com/repos/chrisreedio/bastion/zipball/9d443982d6f6734782442a0cb42e359c1e60faf2",
+                "reference": "9d443982d6f6734782442a0cb42e359c1e60faf2",
                 "shasum": ""
             },
             "require": {
+                "chrisreedio/filament-policy-generator": "dev-dev",
                 "filament/filament": "^3.0",
                 "illuminate/contracts": "^10.0",
                 "php": "^8.1",
@@ -290,7 +291,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-01T06:14:41+00:00"
+            "time": "2023-11-01T10:52:20+00:00"
         },
         {
             "name": "chrisreedio/filament-policy-generator",
@@ -298,12 +299,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/chrisreedio/filament-policy-generator.git",
-                "reference": "df3a8f1d553598c9877206a9c1f8c286f5fcfe20"
+                "reference": "5f65caf998cc86c9a4b8945e897749b7187d271b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/df3a8f1d553598c9877206a9c1f8c286f5fcfe20",
-                "reference": "df3a8f1d553598c9877206a9c1f8c286f5fcfe20",
+                "url": "https://api.github.com/repos/chrisreedio/filament-policy-generator/zipball/5f65caf998cc86c9a4b8945e897749b7187d271b",
+                "reference": "5f65caf998cc86c9a4b8945e897749b7187d271b",
                 "shasum": ""
             },
             "require": {
@@ -369,7 +370,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-11-01T08:36:44+00:00"
+            "time": "2023-11-01T11:01:39+00:00"
         },
         {
             "name": "danharrin/date-format-converter",
@@ -10154,8 +10155,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
-        "chrisreedio/bastion": 20,
-        "chrisreedio/filament-policy-generator": 20
+        "chrisreedio/bastion": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
